@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Button Inserter",
+    "version": "1.0",
+    "action": {
+      "default_icon": {
+        "16": "icons/announcement.png"
+      }
+    },
+    "permissions": ["scripting", "activeTab"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": ["https://www.google.com/*"]
+  }
+  
